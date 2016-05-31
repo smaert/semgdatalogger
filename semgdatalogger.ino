@@ -1,8 +1,9 @@
 /* SD Card dataloger with SPI
  *  The code is based on SD Datalogger tutorial by Tom Igoe https://www.arduino.cc/en/Tutorial/Datalogger
- *   
  *   This code also contains a timer - for desired logging interval change value of "interval"
  *   
+ *   For SD-card module or shield connection refer to https://arduino-info.wikispaces.com/SD-Cards
+ *
  *   By defoault, the logging frequency is set to 10 Hz  (interval = 100ms). This allows capture of max 4 channels + relative time in ms. 
  *   The latter is added in order to check the stability. 
  *   
